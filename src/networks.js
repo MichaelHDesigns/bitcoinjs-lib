@@ -9,15 +9,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
  base58Prefixes[EXT_SECRET_KEY] = {0x02, 0x86, 0xAB, 0xE5};
  */
 exports.bitcoin = {
-  messagePrefix: '\x18Gold-BCR Signed Message:\n',
-  bech32: 'gbcr',
+  messagePrefix: '\xHomelessCoin Signed Message:\n',
+  bech32: 'hth',
   bip32: {
-    public: 0x0690841f,
-    private: 0x0286ABE5,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
   },
-  pubKeyHash: 0x26,
-  scriptHash: 0x12,
-  wif: 0x94,
+  pubKeyHash: 0x64,
+  scriptHash: 0x28,
+  wif: 0xe4,
 };
 
 /**
@@ -29,15 +29,15 @@ exports.bitcoin = {
  base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
  */
 exports.regtest = {
-  messagePrefix: '\x18Gold-BCR Signed Message:\n',
-  bech32: 'rgbcr',
+   messagePrefix: '\xHomelessCoin Signed Message:\n',
+  bech32: 'hth',
   bip32: {
-    public: 0x043587cf,
-    private: 0x04358394,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
   },
-  pubKeyHash: 0x41,
-  scriptHash: 0x4e,
-  wif: 0x82,
+  pubKeyHash: 0x64,
+  scriptHash: 0x28,
+  wif: 0xe4,
 };
 
 /**
@@ -49,13 +49,13 @@ exports.regtest = {
  base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
  */
 exports.testnet = {
-  messagePrefix: '\x18Gold-BCR Signed Message:\n',
-  bech32: 'tgbcr',
+   messagePrefix: '\xHomelessCoin Signed Message:\n',
+  bech32: 'hth',
   bip32: {
-    public: 0x043587cf,
-    private: 0x04358394,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
   },
-  pubKeyHash: 0x41,
-  scriptHash: 0x4e,
-  wif: 0x82,
+  pubKeyHash: 0x64,
+  scriptHash: 0x28,
+  wif: 0xe4,
 };
